@@ -25,7 +25,7 @@ for index, row in df.iterrows():
 
     # Define the test case
     test_case = LLMTestCase(
-        input=f"Extract the title, price, brand and retailer from the following context in JSON format:\n\n### Input:\n{context}",
+        input=f"",
         # Replace this with the actual output from your LLM application
         actual_output=f'{actual_output}'
     )
